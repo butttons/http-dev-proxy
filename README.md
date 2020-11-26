@@ -1,5 +1,11 @@
 # Simple HTTP proxy for development
 
+## Installation:
+
+```
+npm i -g http-dev-proxy
+```
+
 ## Usage:
 
 -   Create a `proxy.config.js` file. You can use `proxy.config.js.example` as a template.
