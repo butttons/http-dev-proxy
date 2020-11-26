@@ -1,7 +1,7 @@
 {
     "name": "http-dev-proxy",
-    "version": "1.0.0",
-    "description": "Simple proxy for development",
+    "version": "1.0.1",
+    "description": "Simple HTTP proxy for development",
     "main": "cli.js",
     "scripts": {
         "dev": "nodemon cli.js"
@@ -16,6 +16,7 @@
     "author": "butttons",
     "license": "MIT",
     "repository": {
+        "type": "git",
         "url": "https://github.com/butttons/http-dev-proxy"
     },
     "dependencies": {
