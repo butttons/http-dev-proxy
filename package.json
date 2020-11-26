@@ -1,0 +1,22 @@
+{
+    "name": "http-dev-proxy",
+    "version": "1.0.0",
+    "description": "Simple proxy for development",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon cli.js"
+    },
+    "bin": {
+        "http-dev-proxy": "./cli.js"
+    },
+    "keywords": [
+        "http-proxy",
+        "http-dev-proxy"
+    ],
+    "author": "butttons",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "http-proxy-middleware": "^1.0.6"
+    }
+}
